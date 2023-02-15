@@ -41,8 +41,8 @@ if (ScrollTrigger.isTouch !== 1) {
 			opacity: 1, y: 0,
 			scrollTrigger: {
 				trigger: item,
-				start: '-850',
-				end: '-100',
+				start: '-650',
+				end: 'top',
 				scrub: true
 			}
 		})
