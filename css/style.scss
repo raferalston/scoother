@@ -1,0 +1,13 @@
+@import 'normilize';
+@import 'header';
+@import 'content';
+
+body {
+    background-color: #18a678;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+}

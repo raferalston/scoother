@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    min-height: 100vh;
+    padding: 0 25px;
+
+    .herobox {
+        flex-grow: 1;
+        h1 {
+            font-size: 8em;
+        }
+    }
+    .hero-image {
+        flex-basis: 100%;
+        img {
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+}
